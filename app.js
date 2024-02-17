@@ -3,7 +3,7 @@ titulo = document.querySelector("h1");
 paragrafo = document.querySelector("p");
 
 chute = 0;
-numero_maximo = 50;
+numero_maximo = 200;
 numero_certo = parseInt(Math.random() * numero_maximo + 1);
 tentativas = 0;
 tentativas_palavra = "";
