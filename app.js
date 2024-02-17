@@ -48,7 +48,7 @@ function ReiniciarJogo(){
     console.log("Entrou na função reiniciar")
 
     chute = 0;
-    numero_maximo = 100;
+    numero_maximo = 50;
     numero_certo = parseInt(Math.random() * numero_maximo + 1);
     tentativas = 0;
     tentativas_palavra = "";
